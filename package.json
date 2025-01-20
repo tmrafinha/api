@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:": "node build/server.js",
+    "start": "node build/server.js",
     "start:dev": "tsx watch --inspect src/server.ts",
     "build": "tsup src --out-dir build",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli"
